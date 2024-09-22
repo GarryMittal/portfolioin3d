@@ -1,7 +1,7 @@
 // contains all constants to be used throughout the project
 // dont' remove anything from here if not sure
 
-import { blog, cine, dealhome, logo, logo2, metro, syncHome, uc, yamm } from "../assets/images";
+import { blog, cine, cineflexHome, dealhome, logo, logo2, metro, syncHome, uc, yamm } from "../assets/images";
 import {
   css,
   express,
@@ -184,6 +184,7 @@ export const PROJECTS = [
     description:
       "Cineflex is a Next.js-based full-stack web application designed for a modern movie-watching experience. It features secure authentication using NextAuth, efficient data management with Prisma and MongoDB, and seamless movie playback functionality. Users can discover movies, create favorite lists, and manage profiles within a responsive design",
     // link: "https://snappy-chatapp.netlify.app/",
+    image:cineflexHome
   },
   {
     iconUrl: blog,
