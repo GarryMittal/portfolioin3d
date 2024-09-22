@@ -1,7 +1,7 @@
 // contains all constants to be used throughout the project
 // dont' remove anything from here if not sure
 
-import { blog, cine, cineflexHome, dealhome, logo, logo2, metro, syncHome, uc, yamm } from "../assets/images";
+import { blog, blogHome, cine, cineflexHome, dealhome, logo, logo2, metro, syncHome, uc, yamm } from "../assets/images";
 import {
   css,
   express,
@@ -193,5 +193,6 @@ export const PROJECTS = [
     description:
       "Developed a full-stack web application using the MERN stack (MongoDB, Express.js, React.js, Node.js) to facilitate the creation and management of blog content. The application includes secure user authentication, enabling users to create accounts, log in, and manage their profiles. Users can write, edit, and delete blog posts, as well as comment on and like posts from others. The app features a responsive design for optimal viewing across devices",
     // link: "https://carhb.vercel.app/",
+    image:blogHome
   },
 ];

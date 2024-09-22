@@ -12,5 +12,6 @@ import blog from './blog.png'
 import dealhome from './dealdashHome.png'
 import syncHome from './syncscriptHomepage.png'
 import cineflexHome from './cineflexHome.png'
+import blogHome from './blogHome.png'
 // export images
-export { metro,uc,yamm,logo,logo2,cine,blog,dealhome,syncHome,cineflexHome };
+export { metro,uc,yamm,logo,logo2,cine,blog,dealhome,syncHome,cineflexHome,blogHome };
