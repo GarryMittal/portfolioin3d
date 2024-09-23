@@ -13,13 +13,13 @@ const Navbar = () => {
         className="w-10 h-10 rounded-lg bg-white items-center justify-center flex font-bold shadow-md"
         title={SITE_NAME}
       >
-        <p className="blue-gradient_text">
+        <p className="blue-gradient_text ">
           {SITE_NAME.split(" ")[0][0] + "" + SITE_NAME.split(" ")[1][0]}
         </p>
       </NavLink>
 
       {/* nav links */}
-      <nav className="flex text-lg gap-7 font-medium items-center justify-center">
+      <nav className="flex text-lg gap-7 font-medium items-center justify-center ml-7">
         {SIDEBAR_LINKS.map((link) => (
           // each nav link
           <NavLink
